@@ -1,35 +1,43 @@
 body {
-  background-color: black;
   text-align: center;
+  color: white;
+  background-color: black;
+}
+
+.container {
+  align-items: center;
 }
 
 h1 {
+  font-family: verdana;
   font-weight: normal;
   font-size: 50px;
-  text-align: center;
-  font-family: verdana;
-}
-
-h2 {
-  font-size: 16px;
-  color: aquamarine;
-}
-
-h3 {
-  font-weight: 300;
-  font-size: 42px;
-
+  color: white;
 }
 
 p {
-  color: gray;
-  font-size: 21px;
-  font-family: verdana;
+  align-items: center;
 }
 
-.rightside {
-  text-align: right;
+h2 {
+font-family: verdana;
+font-weight: normal;
+font-size: 42px;
+color: white;
 }
-h1, h3 {
-  color: white;
+
+h3 {
+  font-size: 21px;
+  color: gray;
+  font-family: helvetica;
+}
+
+h4 {
+  font-size: 16px;
+  color: aquamarine;
+  font-family: helvetica;
+}
+
+.footer {
+  text-align: right;
 }
